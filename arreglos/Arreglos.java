@@ -19,7 +19,7 @@ public class Arreglos {
         double[] arreglo2;
 
         //No se puede usarf un arreglo que no ha sido construido
-       // arreglo2[0] = 12.47;
+        // arreglo2[0] = 12.47;
 
        //Onjetos para introducir valores
         BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
