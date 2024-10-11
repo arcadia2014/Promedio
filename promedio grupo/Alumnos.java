@@ -1,7 +1,7 @@
 public class Alumnos {
     private String nombre;
     private String matricula;
-    private double estrucuturas;
+    private double estructuras;
     private double ingles;
     private double iot;
     private double promedio;
@@ -28,12 +28,11 @@ public class Alumnos {
         this.matricula = matricula;
     }
 
-    public double getEstrucuturas() {
-        return estrucuturas;
+    public double getEstructuras() {
+        return estructuras;
     }
-
-    public void setEstrucuturas(double estrucuturas) {
-        this.estrucuturas = estrucuturas;
+    public void setEstrucuturas(double estructuras) {
+        this.estructuras = estructuras;
     }
 
     public double getIngles() {
@@ -57,13 +56,11 @@ public class Alumnos {
     }
 
     public void setPromedio() {
-        this.promedio =(this.estrucuturas + this.ingles + this.iot) / 3;
+        this.promedio =(this.estructuras + this.ingles + this.iot) / 3;
     }
     
     @Override
     public String toString() {
         return "Alumno [nombre=" + nombre + ", matricula=" + matricula + ", promedio=" + promedio + "]";
     }
-
-    
 }
